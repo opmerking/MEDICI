@@ -1,3 +1,8 @@
+# Model class for agent-based Renaissance Florence simulation.
+# Incorporates taxes, economic instability, population changes, guides general agent behavior.
+# Fabian Lohmann, July 2025
+# FDLohmann@gmail.com
+
 import pandas as pd
 import mesa
 import numpy as np
