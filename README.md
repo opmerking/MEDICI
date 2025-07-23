@@ -25,16 +25,6 @@ The simulation:
   - `forcedloans.txt`
   - `mortality.txt`
 
-## 📊 Outputs
-
-The simulation outputs include:
-- Gini coefficient over time
-- Wealth share of the top 10%
-- Total and average household wealth
-- Wealth class distributions
-
-Visualizations are generated using `seaborn` and `matplotlib`.
-
 ## 🛠️ Requirements
 
 Install dependencies using pip:
