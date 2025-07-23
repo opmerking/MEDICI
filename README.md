@@ -1,8 +1,8 @@
-# Florence ABM 1427
+# MEDICI-1427
 
-**Agent-Based Simulation of Economic Behavior in Renaissance Florence**
+**Model for Early Dynamics and Interactions in Commercial Italy**
 
-This repository contains the code for an agent-based model (ABM) simulating household-level economic dynamics in 15th-century Florence. The simulation draws on historical datasets from the *Catasto* of 1427 and 1457, along with tax and mortality records, to replicate wealth distribution trends, trade interactions, and demographic shifts over time.
+This repository contains the code for an Agent-Based Simulation (ABM) of Economic Behavior in Renaissance Florence. The model simulates economic dynamics at a household-level from 1427 to 1457, drawing on historical datasets from the *Catasto* of 1427 and 1457, along with tax and mortality records, to replicate wealth distribution trends, trade interactions, and demographic shifts over time.
 
 ## Project Overview
 
