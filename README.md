@@ -41,3 +41,6 @@ Mortality data comes from the historical Florentine Dowry Fund: https://doi.org/
 
 Forced loans data comes from: Anthony Molho, Florentine Public Finances in the Early Renaissance, 1400–1433 (Cambridge, MA, 1971), 10, 62, and Elio Conti, L’imposta diretta a Firenze nel Quattrocento,
 1427–1494 (Rome, 1984), 81, 83.
+
+## Acknowledgments
+This project was completed as part of the Research Methods for Artificial Intelligence course at the Open University of the Netherlands. Special thanks to the Brown University Digital Humanities team and to the Sapienza Università di Roma team for making the Catasti data publicly available.
