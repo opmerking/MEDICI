@@ -4,7 +4,7 @@
 
 This repository contains the code for an agent-based model (ABM) simulating household-level economic dynamics in 15th-century Florence. The simulation draws on historical datasets from the *Catasto* of 1427 and 1457, along with tax and mortality records, to replicate wealth distribution trends, trade interactions, and demographic shifts over time.
 
-## 🔍 Project Overview
+## Project Overview
 
 The simulation:
 - Models over 9,000 historical households from the 1427 *Catasto*
@@ -12,18 +12,18 @@ The simulation:
 - Uses historical forced loans and epidemic data to simulate economic instability
 - Tracks wealth distribution, inequality (Gini coefficient), and demographic evolution over 30 simulated years
 
-## 📂 Structure
+## Structure
 
-- `Run.py` — Main script to execute the simulation and generate plots
-- `model.py` — Core model logic and simulation engine
-- `agent.py` — Definition of the household agents and their behavior
+- `Run.py` — Main script runner. Runs the simulation with 30 timesteps of a year each, and generate plots.
+- `model.py` — Core model class. Incorporates taxes, economic instability, population changes, guides general agent behavior.
+- `agent.py` — Defines household agents, enables the production of economic value and trading behavior.
 - `data/` — Folder containing the historical datasets:
   - `Catasto_1427.csv`
   - `Catasto_1457.csv`
   - `forcedloans.txt`
   - `mortality.txt`
 
-## 🛠️ Requirements
+## Requirements
 
 Install dependencies using pip:
 
@@ -41,6 +41,3 @@ Mortality data comes from the historical Florentine Dowry Fund: https://doi.org/
 
 Forced loans data comes from: Anthony Molho, Florentine Public Finances in the Early Renaissance, 1400–1433 (Cambridge, MA, 1971), 10, 62, and Elio Conti, L’imposta diretta a Firenze nel Quattrocento,
 1427–1494 (Rome, 1984), 81, 83.
-
----
-Note: This readme was written with the help of ChatGPT.
