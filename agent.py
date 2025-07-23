@@ -1,6 +1,7 @@
 # Agent class for agent-based Renaissance Florence simulation.
 # Enables agents to produce economic value, engage in trading, pay off debts.
-# Made with Mesa 3.2.0.
+# Utilizes Mesa 3.2.0.
+#
 # Fabian Lohmann, July 2025
 # FDLohmann@gmail.com
 
