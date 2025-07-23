@@ -34,9 +34,11 @@ pip install pandas numpy matplotlib seaborn mesa
 ## Sources
 
 The 1427 Catasto data is publicly available at: http://cds.library.brown.edu/projects/catasto/overview.html
+
 Online Catasto of 1427. Version 1.3. Edited by David Herlihy, Christiane Klapisch-Zuber, R. Burr Litchfield and Anthony Molho. [Machine readable data file based on D. Herlihy and C. Klapisch-Zuber, Census and Property Survey of Florentine Domains in the Province of Tuscany, 1427-1480.] Florentine Renaissance Resources/STG: Brown University, Providence, R.I., 2002.
 
 The 1457 Catasto is available at:  https://doi.org/10.3886/E192821V1
+
 https://creativecommons.org/licenses/by/4.0/
 
 ---
