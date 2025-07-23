@@ -1,6 +1,3 @@
-%# florence-abm
-%Agent-based simulation of economic behavior in 15th-century Florence using historical Catasto data.
-
 # Florence ABM 1427
 
 **Agent-Based Simulation of Economic Behavior in Renaissance Florence**
