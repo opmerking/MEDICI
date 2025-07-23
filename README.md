@@ -63,10 +63,13 @@ Comparing the results to the final year of the simulation (1457) to the historic
 | Parameter | Value | Description |
 |-----------|-------|-------------|
 | Simulation period | 30 years | 1427-1457 |
+| Population | 38269 * e^-.0058*(year - 1427) | Simple decay function | 
 | Labor productivity | 40 florins/person/year | Based on unskilled worker wages |
 | Capital return rate | 6% | Pre-industrial return estimate |
 | Birth rate | .5% | Medieval Italian average |
 | Epidemic penalty | factor 1.5 | Determines instability alongside forced loans |
+| Household split probabilty | Bocche^2 * .000015 | Based on 20 household splits / year avg. |
+
 
 ## Sources
 
