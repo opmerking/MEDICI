@@ -63,7 +63,7 @@ data = model.datacollector.get_model_vars_dataframe()
 #%% Plots
 #---------------------------------------------------------------------#
 
-# Gini coefficient evolution
+### Gini coefficient evolution plot
 plt.figure(figsize=(8, 3.8))
 plt.plot(data.index + 1427, data['Gini'], color='#1f77b4', marker='o')
 plt.xlabel('Year')
@@ -75,7 +75,7 @@ plt.show()
 
 
 
-# Average wealth 
+### Average wealth plot
 plt.figure(figsize=(8, 3.8))
 years = data.index + 1427
 plt.plot(years, data['Avg_Wealth'], marker='o', color='#1f77b4', label='Average wealth')
@@ -110,7 +110,7 @@ plt.savefig('avg_wealth.png', dpi=300)
 plt.show()
 
 
-# Bar plot, wealth distribution
+### Bar plot, wealth distribution
 
 # Define wealth class thresholds
 bins = [0, 29, 210, 893, 2634, 14299, float('inf')]
@@ -140,7 +140,6 @@ final_counts = [
     collected_data['Elite_Households'].iloc[-1]
 ]
 
-# Plotting
 wealth_classes = ['Poor\n(0–29)', 'Lower Middle\n(29–210)', 'Upper Middle\n(210–893)', 
                   'Wealthy\n(893–2,634)', 'Affluent\n(2,634–14,299)', 'Elite\n(14,299+)']
 
@@ -176,9 +175,4 @@ plt.tight_layout()
 plt.savefig('bars.png', dpi=300)
 plt.show()
 
-
-
-
 #%%
-
-
