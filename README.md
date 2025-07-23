@@ -24,7 +24,9 @@ pip install pandas numpy matplotlib seaborn mesa
 
 Run the main simulation:
 
-```python Run.py```
+```bash
+python run.py
+```
 This will:
 
 1. Load the 1427 Catasto data
