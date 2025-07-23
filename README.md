@@ -8,9 +8,17 @@ This repository contains the code for an Agent-Based Model (ABM) of economic beh
 
 The simulation:
 - Models over 9,000 historical households from the 1427 *Catasto*
-- Implements economic production, trading behavior, taxation, and mortality
-- Uses historical forced loans and epidemic data to simulate economic instability
+- Implements economic production, trading behavior, taxation, population changes and debt management
+- Models social shocks such as the impact of wars and epidemics based on historical forced loans and epidemic data to simulate economic instability
 - Tracks wealth distribution, inequality (Gini coefficient), and demographic evolution over 30 simulated years
+
+## Requirements
+
+Install dependencies using pip:
+
+```bash
+pip install pandas numpy matplotlib seaborn mesa
+```
 
 ## Usage
 
@@ -26,24 +34,39 @@ This will:
   - Average household wealth over time
   - Wealth distribution comparison (1427 vs 1457)
 
+
 ## Structure
 
-- `Run.py` — Main script runner. Runs the simulation with 30 timesteps of a year each, and generate plots.
-- `model.py` — Core model class. Incorporates taxes, economic instability, population changes, guides general agent behavior.
-- `agent.py` — Defines household agents, enables the production of economic value and trading behavior.
-- `data/` — Folder containing the historical datasets:
-  - `Catasto_1427.csv`
-  - `Catasto_1457.csv`
-  - `forcedloans.txt`
-  - `mortality.txt`
-
-## Requirements
-
-Install dependencies using pip:
-
-```bash
-pip install pandas numpy matplotlib seaborn mesa
 ```
+florence-abm/
+├── Run.py              # Main simulation runner. Runs the simulation with 30 timesteps of a year each, and generate plots.
+├── model.py            # Core model class. Incorporates taxes, economic instability, population changes, guides general agent behavior.
+├── agent.py            # Defines household agents, enables the production of economic value and trading behavior.
+├── data/               # Historical datasets
+│   ├── Catasto_1427.csv    # 1427 census data (9,780 households)
+│   ├── Catasto_1457.csv    # 1457 census data for validation
+│   ├── forcedloans.txt     # Annual forced loan amounts
+│   └── mortality.txt       # Epidemic mortality rates
+└── README.md
+```
+
+## Key Results
+
+Comparing the results to the final year of the simulation (1457) to the historical data of that year:
+- **Final Gini coefficient**: 0.644 (simulated) vs 0.634 (historical) - 1.6% difference
+- **Population accuracy**: 32,149 (simulated) vs 31,964 (historical)
+- **Household count**: 7,547 (simulated) vs 7,455 (historical)
+- **Robustness**: Consistent results across different random seeds (σ = 0.002)
+
+## Model Parameters
+
+| Parameter | Value | Description |
+|-----------|-------|-------------|
+| Labor productivity | 40 florins/person/year | Based on unskilled worker wages |
+| Capital return rate | 6% | Typical pre-industrial return |
+| Tax deduction | 200 florins/person | Per household member |
+| Birth rate | 5% | Medieval Italian average |
+| Simulation period | 30 years | 1427-1457 |
 
 ## Sources
 
