@@ -12,6 +12,20 @@ The simulation:
 - Uses historical forced loans and epidemic data to simulate economic instability
 - Tracks wealth distribution, inequality (Gini coefficient), and demographic evolution over 30 simulated years
 
+## Usage
+
+Run the main simulation:
+
+```python Run.py```
+This will:
+
+1. Load the 1427 Catasto data
+2. Run a 30-year simulation (1427-1457)
+3. Generate three visualization plots:
+  - Gini coefficient evolution
+  - Average household wealth over time
+  - Wealth distribution comparison (1427 vs 1457)
+
 ## Structure
 
 - `Run.py` — Main script runner. Runs the simulation with 30 timesteps of a year each, and generate plots.
@@ -41,6 +55,11 @@ The **1457 Catasto** is available at: https://doi.org/10.3886/E192821V1. The 145
 
 **Forced loans** data comes from: Anthony Molho, _Florentine Public Finances in the Early Renaissance, 1400–1433_ (Cambridge, MA, 1971), 10, 62, and Elio Conti, _L’imposta diretta a Firenze nel Quattrocento,
 1427–1494_ (Rome, 1984), 81, 83.
+
+## Author
+
+Fabian Lohmann
+FDLohmann@gmail.com
 
 ## Acknowledgments
 This project was completed as part of the Research Methods for Artificial Intelligence course at the Open University of the Netherlands. Special thanks to the Brown University Digital Humanities team and to the Sapienza Università di Roma team for making the Catasti data publicly available.
