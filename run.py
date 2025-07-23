@@ -1,4 +1,8 @@
-# This file runs a simulation for agent-based modeling of Renaissance Florence.
+# Main simulation runner for agent-based modeling of Renaissance Florence.
+# Runs the simulation with timesteps of 30 years by default.
+# Also creates three different wealth distribution plots, although more plots are possible.
+# Utilizes Mesa 3.2.0.
+#
 # Fabian Lohmann, july 2025
 # FDLohmann@gmail.com
 
