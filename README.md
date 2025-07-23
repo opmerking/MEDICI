@@ -2,8 +2,6 @@
 
 **Agent-Based Simulation of Economic Behavior in Renaissance Florence**
 
-Note: This readme was written by ChatGPT.
-
 This repository contains the code for an agent-based model (ABM) simulating household-level economic dynamics in 15th-century Florence. The simulation draws on historical datasets from the *Catasto* of 1427 and 1457, along with tax and mortality records, to replicate wealth distribution trends, trade interactions, and demographic shifts over time.
 
 ## 🔍 Project Overview
@@ -31,3 +29,5 @@ Install dependencies using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn mesa
+
+Note: This readme was written by ChatGPT.
