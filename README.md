@@ -62,11 +62,10 @@ Comparing the results to the final year of the simulation (1457) to the historic
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
+| Simulation period | 30 years | 1427-1457 |
 | Labor productivity | 40 florins/person/year | Based on unskilled worker wages |
 | Capital return rate | 6% | Typical pre-industrial return |
-| Tax deduction | 200 florins/person | Per household member |
-| Birth rate | 5% | Medieval Italian average |
-| Simulation period | 30 years | 1427-1457 |
+| Birth rate | .5% | Medieval Italian average |
 
 ## Sources
 
