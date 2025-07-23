@@ -1,5 +1,7 @@
 # Model class for agent-based Renaissance Florence simulation.
 # Incorporates taxes, economic instability, population changes, guides general agent behavior.
+# Utilizes Mesa 3.2.0.
+#
 # Fabian Lohmann, July 2025
 # FDLohmann@gmail.com
 
