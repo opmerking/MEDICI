@@ -1,3 +1,7 @@
+# This file runs a simulation for agent-based modeling of Renaissance Florence.
+# Fabian Lohmann, july 2025
+# FDLohmann@gmail.com
+
 # %% Data preprocessing
 from model import Florence
 import matplotlib.pyplot as plt
