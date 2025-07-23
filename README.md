@@ -30,9 +30,9 @@ This will:
 1. Load the 1427 Catasto data
 2. Run a 30-year simulation (1427-1457)
 3. Generate three visualization plots:
-  - Gini coefficient evolution
-  - Average household wealth over time
-  - Wealth distribution comparison (1427 vs 1457)
+    - Gini coefficient evolution
+    - Average household wealth over time
+    - Wealth distribution comparison (1427 vs 1457)
 
 
 ## Structure
