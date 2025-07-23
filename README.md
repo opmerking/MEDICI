@@ -9,7 +9,7 @@ This repository contains the code for an agent-based model (ABM) simulating hous
 The simulation:
 - Models over 9,000 historical households from the 1427 *Catasto*
 - Implements economic production, trading behavior, taxation, and mortality
-- Uses historical forced loans and epidemic data to simulate instability
+- Uses historical forced loans and epidemic data to simulate economic instability
 - Tracks wealth distribution, inequality (Gini coefficient), and demographic evolution over 30 simulated years
 
 ## 📂 Structure
