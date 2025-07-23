@@ -39,9 +39,9 @@ This will:
 
 ```
 florence-abm/
-├── Run.py         # Main simulation runner. Runs the simulation with 30 timesteps of a year each, and generate plots.
-├── model.py       # Core model class. Incorporates taxes, economic instability, population changes, agent behavior.
-├── agent.py       # Defines household agents, enables the production of economic value and trading behavior.
+├── Run.py         # Main simulation runner. Runs 30 timesteps (1 year each), and generates plots.
+├── model.py       # Core model class. Models taxes, economic instability, population changes.
+├── agent.py       # Defines household agents, enables economic value production and trading.
 ├── data/          # Historical datasets
 │   ├── Catasto_1427.csv    # 1427 census data (9,780 households)
 │   ├── Catasto_1457.csv    # 1457 census data for validation
