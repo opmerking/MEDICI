@@ -29,5 +29,7 @@ Install dependencies using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn mesa
+```
 
+---
 Note: This readme was written by ChatGPT.
