@@ -48,12 +48,14 @@ class household(mesa.Agent):
     def say_hi(self):       # Test action
         # Prints agent's ID and wealth.
         print(f"I am agent {str(self.unique_id)}, I have {str(self.wealth)} Florins. I am in guild {str(self.trade)}")
- 
+
+    # Calculates taxable income
     def calculate_taxable(self):
         self.taxable = self.wealth - self.bocche * 200    # 200 Florins tax deduction per family member   
         if self.taxable < 0:
             self.taxable = 0
- 
+
+    # Agent engages in economic value production and trading behavior
     def trading_phase(self):
         # Every agent produces value based on their investments and household members      
         self.production = round((self.bocche * self.labor_productivity + self.investments * self.capital_return_rate) * (1 - self.model.instability))
@@ -115,7 +117,9 @@ class household(mesa.Agent):
             self.investments += self.remaining_production
             self.remaining_production = 0
 
-    def recalculation_phase(self):  # Agents are being taxed and have an opportunity to invest
+    
+    # Agent is taxed and has an opportunity to pay off debt. There is also a chance that the household will split
+    def recalculation_phase(self):  
         
         # Chance to pay off a random debt percentage
         if self.investments > self.deductions:
@@ -182,8 +186,11 @@ class household(mesa.Agent):
             self.wealth_class = 5
             
 
-
-### Potential city government agent ###
+### Potential city government agent for future versions ###
+# class city_government(mesa,Agent):               # The city
+#     def __init__(self, treasury):
+#         super().__init__(model)
+#         self.treasury = treasury
 # class city_government(mesa,Agent):               # The city
 #     def __init__(self, treasury):
 #         super().__init__(model)
