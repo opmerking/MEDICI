@@ -33,13 +33,13 @@ pip install pandas numpy matplotlib seaborn mesa
 
 ## Sources
 
-_Online Catasto of 1427_. Version 1.3. Edited by David Herlihy, Christiane Klapisch-Zuber, R. Burr Litchfield and Anthony Molho. [Machine readable data file based on D. Herlihy and C. Klapisch-Zuber, _Census and Property Survey of Florentine Domains in the Province of Tuscany, 1427-1480._] Florentine Renaissance Resources/STG: Brown University, Providence, R.I., 2002. The 1427 Catasto data is publicly available at: http://cds.library.brown.edu/projects/catasto/overview.html
+**1427 Catasto:** _Online Catasto of 1427_. Version 1.3. Edited by David Herlihy, Christiane Klapisch-Zuber, R. Burr Litchfield and Anthony Molho. [Machine readable data file based on D. Herlihy and C. Klapisch-Zuber, _Census and Property Survey of Florentine Domains in the Province of Tuscany, 1427-1480._] Florentine Renaissance Resources/STG: Brown University, Providence, R.I., 2002. The 1427 Catasto data is publicly available at: http://cds.library.brown.edu/projects/catasto/overview.html
 
-The 1457 Catasto is available at: https://doi.org/10.3886/E192821V1. The 1457 Catasto is licensed with Creative Commons: https://creativecommons.org/licenses/by/4.0/
+The **1457 Catasto** is available at: https://doi.org/10.3886/E192821V1. The 1457 Catasto is licensed with Creative Commons: https://creativecommons.org/licenses/by/4.0/
 
-Mortality data comes from the historical Florentine Dowry Fund: https://doi.org/10.2105/AJPH.75.5.528. A S Morrison, J Kirshner, and A Molho “_Epidemics in Renaissance Florence._”, American Journal of Public Health 75, no. 5 (May 1, 1985): pp. 528-535.
+**Mortality data** comes from the historical Florentine Dowry Fund: https://doi.org/10.2105/AJPH.75.5.528. A S Morrison, J Kirshner, and A Molho “_Epidemics in Renaissance Florence._”, American Journal of Public Health 75, no. 5 (May 1, 1985): pp. 528-535.
 
-Forced loans data comes from: Anthony Molho, _Florentine Public Finances in the Early Renaissance, 1400–1433_ (Cambridge, MA, 1971), 10, 62, and Elio Conti, _L’imposta diretta a Firenze nel Quattrocento,
+**Forced loans** data comes from: Anthony Molho, _Florentine Public Finances in the Early Renaissance, 1400–1433_ (Cambridge, MA, 1971), 10, 62, and Elio Conti, _L’imposta diretta a Firenze nel Quattrocento,
 1427–1494_ (Rome, 1984), 81, 83.
 
 ## Acknowledgments
