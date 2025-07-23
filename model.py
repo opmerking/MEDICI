@@ -6,18 +6,37 @@ from agent import household
 # Load the dataframe
 df_1427 = pd.read_csv("data/Catasto_1427.csv")
 
-# Function for gini coefficient
+# Gini coefficient function
 def compute_gini(model):
-    agent_wealths = [agent.wealth for agent in model.agents]
-    x = sorted(agent_wealths)
-    n = model.num_agents
-    B = sum(xi * (n - i) for i, xi in enumerate(x)) / (n * sum(x))
-    return 1 + (1 / n) - 2 * B
+    wealths = [agent.wealth for agent in model.agents]
+    
+    if not wealths or len(wealths) == 0:
+        return 0
+    
+    # Handle negative wealth
+    wealths = [max(0, w) for w in wealths]
+    total_wealth = sum(wealths)
+    
+    if total_wealth == 0:
+        return 0
+    
+    # Sort wealths
+    sorted_wealths = sorted(wealths)
+    n = len(wealths)
+    
+    # Gini formula
+    cumsum = 0
+    for i, wealth in enumerate(sorted_wealths):
+        cumsum += (i + 1) * wealth
+    
+    gini = (2 * cumsum) / (n * total_wealth) - (n + 1) / n
+    
+    return gini
 
 # Create the Renaissance Florence model
 class Florence(mesa.Model):
 
-    def __init__(self, n, df_1427, forced_loans_dict, mortality_dict, seed=1):      # Seed makes the model reproducible by controlling RNG's
+    def __init__(self, n, df_1427, forced_loans_dict, mortality_dict, seed):      # Seed makes the model reproducible by controlling RNG's
         super().__init__(seed=seed)
         self.num_agents = len(df_1427)
         self.year = 1427                            # Starting year
