@@ -1,5 +1,5 @@
 # Main simulation runner for agent-based modeling of Renaissance Florence.
-# Runs the simulation with timesteps of 30 years by default.
+# Runs the simulation with 30 timesteps covering a year each by default.
 # Also creates three different wealth distribution plots, although more plots are possible.
 # Utilizes Mesa 3.2.0.
 #
