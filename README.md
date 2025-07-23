@@ -66,6 +66,7 @@ Comparing the results to the final year of the simulation (1457) to the historic
 | Labor productivity | 40 florins/person/year | Based on unskilled worker wages |
 | Capital return rate | 6% | Pre-industrial return estimate |
 | Birth rate | .5% | Medieval Italian average |
+| Epidemic penalty | factor 1.5 | Determines instability alongside forced loans |
 
 ## Sources
 
