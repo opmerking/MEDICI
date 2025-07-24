@@ -104,7 +104,7 @@ for year in epidemic_years:
     plt.axvline(year, color='#1f77b4', linestyle='--', alpha=0.6, label='Epidemic' if year == 1430 else None)
 
 plt.xlabel('Year')
-plt.ylabel('Average household wealth')
+plt.ylabel('Average household wealth (Florins)')
 plt.grid(True)
 plt.legend(
     loc='lower left',
