@@ -60,6 +60,8 @@ Comparing the results to the final year of the simulation (1457) to the historic
 - **Household count**: 7,547 (simulated) vs 7,455 (historical)
 - **Robustness**: Consistent results across different random seeds (σ = 0.002)
 
+![Average Household Wealth](output_examples/avg_wealth.png)
+
 ## Model Parameters
 
 | Parameter | Value | Description |
