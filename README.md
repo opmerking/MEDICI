@@ -17,7 +17,7 @@ The simulation:
 Install dependencies using pip:
 
 ```bash
-pip install pandas numpy matplotlib seaborn mesa
+pip install pandas numpy matplotlib seaborn mesa==3.2.0
 ```
 
 ## Usage
