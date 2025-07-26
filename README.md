@@ -4,6 +4,8 @@
 
 This repository contains the code for an Agent-Based Model (ABM) of economic behavior in Renaissance Florence. The model simulates economic dynamics at a household-level from 1427 to 1457, drawing on historical datasets from the *Catasto* of 1427 and 1457, along with tax and mortality records, to replicate wealth distribution trends, trade interactions, and demographic shifts over time.
 
+![Average Household Wealth](output_examples/avg_wealth.png)
+
 ## Project Overview
 
 The simulation:
@@ -60,7 +62,7 @@ Comparing the results to the final year of the simulation (1457) to the historic
 - **Household count**: 7,547 (simulated) vs 7,455 (historical)
 - **Robustness**: Consistent results across different random seeds (σ = 0.002)
 
-![Average Household Wealth](output_examples/avg_wealth.png)
+![Gini coefficient over time](output_examples/gini.png)
 
 ## Model Parameters
 
