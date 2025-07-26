@@ -62,7 +62,7 @@ Comparing the results to the final year of the simulation (1457) to the historic
 - **Household count**: 7,547 (simulated) vs 7,455 (historical)
 - **Robustness**: Consistent results across different random seeds (σ = 0.002)
 
-![Gini coefficient over time](output_examples/gini.png)
+![Gini coefficient over time](output_examples/Gini.png)
 
 ## Model Parameters
 
